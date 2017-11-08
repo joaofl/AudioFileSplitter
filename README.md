@@ -9,11 +9,11 @@ I have intentions to grow up this application as the necessity for other feature
 
 Run amd tested on Ubuntu 16.04.03 using Python 3.5
 
-###Installing dependencies on Ubuntu 16.04.03
+##### Installing dependencies on Ubuntu 16.04.03
 ```
 sudo apt install libtag1-dev
 sudo pip3 install pytaglib pydub
 ```
 
-##Please use carefully, at you own risk. I don't want to be blamed for accidentally deleted files. 
+#### Please use carefully, at you own risk. I don't want to be blamed for accidentally deleted files. 
 
