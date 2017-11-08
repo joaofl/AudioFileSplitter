@@ -1,5 +1,5 @@
 # AudioFileSplitter
-Divide single track audio with .cue file, into separate per-track files. 
+Divide single track audio file (with associated ".cue" file), into separate per-track files. 
 
 This is a simple python script that makes use of third part libraries to split single track audio album files into separate per-track files, while keeping the ID3 tags consistent, and track names as well. It basically uses the .cue file to split and name each of the created tracks.
 
