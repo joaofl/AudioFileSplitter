@@ -4,10 +4,6 @@ import argparse
 import re
 import os
 
-#Installing pytaglib
-#apt install libtag1-dev
-#sudo pip3 install pytaglib pydub
-
 #Script thast splits songfiles according to playlist files
 parser = argparse.ArgumentParser()
 parser.add_argument('filename', help='CUE file containing the playlist')
@@ -112,8 +108,8 @@ for i, track in enumerate(tracks):
 
     print('Exported file: {}'.format(track['filename']))
 
-r1 = os.remove(file_playlist)
-r2 = os.remove(file_song)
+# r1 = os.remove(file_playlist)
+# r2 = os.remove(file_song)
 print('Originals removed!')
 
 
