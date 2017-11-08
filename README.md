@@ -15,5 +15,18 @@ sudo apt install libtag1-dev
 sudo pip3 install pytaglib pydub
 ```
 
+##### How to use it
+
+To conver a single files, simply type in the terminal
+```
+python3 songfilespliter.py TARGET_CUE_FILE_HERE.cue
+```
+
+To convert many, I use this command:
+```
+find -iname '*.cue' -execdir python3 songfilespliter.py {} \;
+```
+
+
 #### Please use carefully, at you own risk. I don't want to be blamed for accidentally deleted files. 
 
