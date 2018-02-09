@@ -110,6 +110,6 @@ for i, track in enumerate(tracks):
 
 # r1 = os.remove(file_playlist)
 # r2 = os.remove(file_song)
-print('Originals removed!')
+print('Originals not removed!')
 
 
